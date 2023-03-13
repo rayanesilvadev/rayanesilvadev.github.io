@@ -1,46 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rayane Silva - Portfólio</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Shantell+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rayane Silva - Portfólio</title>
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Shantell+Sans:ital,wght@1,300&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-        <div class="caixa">
-            <h1><img src="Rayane.png" alt="Foto"></h1>
+  <header>
+    <div class="caixa-navegacao">
+      <nav>
+        <ul>
+          <li><a href="index.html"> Portfólio</a></li>
+          <li><a href="curriculo.html"> Currículo</a></li>
+          <li><a href="fun-facts.html"> Fun facts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Portfólio</a></li>
-                    <li><a href="curriculo.html"> Currículo</a></li>
-                    <li><a href="fun-facts.html"> Fun facts</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <main>
 
-    <main>
-        <section class="repositorio-barbeariaalura">
-            
-            <img src="BarbeariaAlura.png"alt="Projeto - Barbearia Alura">
-            <h2>Projeto - Barbearia Alura <br>Projeto criado durante o estudo de HTML5 e CSS3 através da plataforma ALURA. <br> Link do curso: https://cursos.alura.com.br/formacao-html-e-css-v232036</h2>
-            <div class="links">
-                <a href="https://rayanesilvadev.github.io/BarbeariaAlura/"><img src="https://img.shields.io/badge/Site-ff3b96?style=for-the-badge&logoColor=pink"></a>
-                <a href="https://github.com/rayanesilvadev/BarbeariaAlura" target="_blank"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-                <a href="https://www.linkedin.com/in/rayane-silva-dev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-                </div>
-        </section>
-        <div class="repositorio-planner">
-            <img src="Planner.png" alt="Projeto - Planner">  
-            <p>Projeto - Planner</p>
-        </div>
-    </main>
+    <section class="resumo">
+      <h1><img src="./images/Rayane.png" alt="Foto"></h1>
+      <h2>Um pequeno resuminho</h2>
+      <p>
+        Sou uma profissional de T.I graduada em Análise e Desenvolvimento de Sistemas e atuei na área entre 01/2020 -
+        11/2022 como DEV Junior.<br><br>
+        Durante este tempo estive em uma equipe focada na verificação e correção de bugs do ambiente de produção, onde
+        tive a oportunidade de ter contato com diversas tecnologias e linguagens devido a vasta variedade de sistemas
+        que a empresa possuia<br><br>
+        Atualmente não estou trabalhando, mas sigo em busca de uma nova oportunidade com diversos desafios! Enquanto
+        isso, sigo estudando Front-End para expandir o conhecimento em busca de me tornar Full-Stack.<br><br>
+        Possuo habilidades com:<br>
+      </p>
+    </section>
+
+    <div class="skills">
+      <ul>
+        <li><img align="center" alt="Ray-Csharp" height="30" width="40"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"></li>
+        <li><img align="center" alt="Ray-Js" height="30" width="40"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"></li>
+        <li><img align="center" alt="Ray-Css" height="30" width="40"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"></li>
+        <li><img align="center" alt="Ray-Html" height="30" width="40"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></li>
+      </ul>
+    </div>
+
+    <section class="repositorios">
+      <h1>Projetos</h1>
+      <div class="repositorio-barbeariaalura">
+        <h2><img src="./images/BarbeariaAlura.png" alt="Projeto - Barbearia Alura"></h2>
+        <h3>Projeto - Barbearia Alura</h3>
+        <p>Projeto criado durante o estudo de HTML5 e CSS3 através da plataforma ALURA. <br><br> Link do curso:
+          https://cursos.alura.com.br/formacao-html-e-css-v232036</p><br><br><br>
+        <a href="https://rayanesilvadev.github.io/BarbeariaAlura/"><img
+            src="https://img.shields.io/badge/Site-ff3b96?style=for-the-badge&logoColor=pink"></a>
+        <a href="https://github.com/rayanesilvadev/BarbeariaAlura" target="_blank"><img
+            src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"
+            target="_blank"></a>
+      </div>
+
+      <div class="repositorio-planner">
+        <h2><img src="./images/Planner.png" alt="Projeto - Planner"></h2>
+        <h3>Projeto - Planner</h3>
+        <p>Projeto pessoal, criado com um tema que gosto apenas para treinar os conhecimentos antes obtidos.</p>
+        <br><br><br>
+        <a href=""><img
+            src="https://img.shields.io/badge/Site-ff3b96?style=for-the-badge&logoColor=pink" alt="Acesso Site"></a>
+        <a href="" target="_blank"><img
+            src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"
+            target="_blank" alt="Repositório GitHub"></a>
+      </div>
+    </section>
+
+    <h1>Minhas redes e contato</h1>
+    <div class="contato">
+      <a class="contato-links" href="https://cursos.alura.com.br/vitrinedev/rayane-silva-dev"><img
+          src="./images/alura.png" alt="VitrineDEV">VitrineDEV</a>
+      <a class="contato-links" href="https://linkedin.com/in/rayane-silva-dev"><img src="./images/linkedin.png"
+          alt="Linkedin">Linkedin</a>
+      <a class="contato-links" href="https://github.com/rayanesilvadev"><img src="./images/github.png"
+          alt="GitHub">GitHub</a>
+    </div>
+
+  </main>
+  <footer>
+    Criado por Rayane Silva - 2023
+  </footer>
 </body>
+
 </html>

@@ -1,61 +1,155 @@
-body{
-    font-family: 'Shantell Sans', cursive;
-    background: #ffbfd8;
-    color: #ffffff;
+body {
+  font-family: 'Shantell Sans', cursive;
+  background: #000000;
+  color: #ffa8c3;
 }
 
-header{
-	padding: 20px 0;
+header {
+  padding: 20px 0;
 }
 
-.caixa{
-    position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
-
-.caixa img{
-    width: 25%;
+.caixa-navegacao {
+  position: relative;
+  width: 940px;
+  margin: 0 15%;
 }
 
 nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+  position: absolute;
+  top: 110px;
 }
 
 nav li {
-	display: inline;
-	margin: 10px;
+  display: inline;
+  margin: 20px;
 }
 
 nav a {
-	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: bold;
-	font-size: 25px;
-	text-decoration: none;
+  text-transform: uppercase;
+  color: #ffa8c3;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 1.5s;
 }
 
-nav a:hover{
-	color: #ff3b96;
-	text-decoration:underline;
+nav a:hover {
+  color: #ff3b96;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
-.repositorio-barbeariaalura{
-    padding: 2em 0;
-    width: 940px;
-    margin: 0 auto;
-    align-items: center;
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 6% 0 3% 0;
 }
 
-.links{
-	display: flex;
-
+.resumo {
+  padding: 1em 0;
+  width: 50%;
+  margin: 15% 0 0 15%;
 }
 
-.repositorio-planner{
-    padding: 3em 0;
-    width: 940px;
-    margin: 0 auto;
+.resumo img {
+  width: 27%;
+  position: absolute;
+  right: 5%;
+}
+
+.resumo h2 {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 5% auto;
+}
+
+.resumo p {
+  font-size: 18px;
+  margin: 1em auto;
+}
+
+.skills ul,
+.contato ul {
+  margin: auto 15%;
+}
+
+.skills li {
+  display: inline;
+  margin: 1em;
+}
+
+.skills img:hover{
+  transform: scale(1.5)
+}
+
+.contato {
+  width: auto;
+  display: flex;
+  margin: 0 15% 3% 15%;
+}
+
+.contato-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 2% 0px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffa8c3 ;
+  font-weight: bold;
+  border: 2px solid #ffa8c3;
+  border-radius: 5px;
+  margin: 3.5%;
+  transition: 0.5s
+}
+
+.contato-links img {
+  width: 10%;
+  margin-right: 5%;
+}
+
+.contato-links:hover {
+  padding: 10px;
+  width: 50%;
+  transition: 1s;
+}
+
+.repositorios h2>img {
+  width: 30%;
+  float: left;
+  margin: auto 2%;
+  left: 0;
+}
+
+.repositorios h3 {
+  font-size: 25px;
+  color: #ffffff;
+  margin: 0.5em 0 1em 0;
+}
+
+.repositorio-barbeariaalura,
+.repositorio-planner {
+  padding: 2em 0;
+  width: 940px;
+  margin: 0 15%;
+}
+
+.repositorios img {
+  display: inline;
+  border: 1px solid #ffa8c3;
+  border-radius: 5%;
+}
+
+.repositorios img:hover{
+  transform: scale(1.1)
+}
+
+footer {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffa8c3;
+  padding: 35px 0;
 }
