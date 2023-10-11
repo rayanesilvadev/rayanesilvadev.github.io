@@ -1,6 +1,6 @@
 body {
   font-family: 'Shantell Sans', cursive;
-  background: #000000;
+  background: #1a1919;
   color: #ffa8c3;
 }
 
@@ -42,7 +42,7 @@ nav a:hover {
 h1 {
   text-align: center;
   font-size: 40px;
-  color: #ffffff;
+  color: #ffffffb7;
   margin: 6% 0 3% 0;
 }
 
